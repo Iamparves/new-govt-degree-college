@@ -1,7 +1,7 @@
 const Page = () => {
   return (
-    <div className="">
-      <div className="bg-gray-200 py-20">
+    <div className="py-5">
+      <div className="h-screen bg-gray-200 py-20">
         <h1>আমার সোনার বাংলা</h1>
       </div>
     </div>

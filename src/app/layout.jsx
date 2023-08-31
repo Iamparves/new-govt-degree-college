@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import "@/fonts/fonts.css";
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className="font-kalpurush">
         <div className="container">
           <Header />
+          <Navbar />
           <main>{children}</main>
         </div>
       </body>

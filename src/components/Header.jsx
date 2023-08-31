@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 const slides = [
   "/header-slider/slide-1.jpg",
@@ -26,10 +27,16 @@ const Header = () => {
     <header className="header-slider border-t-[10px] border-[#683091]">
       <div className="relative border-t-[5px] border-[#8BC643]">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           navigation={{
             prevEl: ".header-slider-prev",
             nextEl: ".header-slider-next",
+          }}
+          speed={1000}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
           }}
           pagination={{
             clickable: true,
@@ -44,9 +51,8 @@ const Header = () => {
                   className="object-cover"
                   sizes="(max-width: 1200px) 960px"
                   alt=""
-                  prefetch={true}
                 />
-                <div className="absolute left-0 top-0 h-full w-full bg-black/50"></div>
+                <div className="absolute left-0 top-0 h-full w-full bg-black/30"></div>
               </div>
             </SwiperSlide>
           ))}
