@@ -2,26 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  background: url(/body-bg.png) repeat-y center top;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .container {
+    @apply mx-auto px-4;
+    max-width: 540px;
+
+    @screen md {
+      max-width: 920px;
+    }
+
+    @screen lg {
+      max-width: 960px;
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.header-slider .swiper-pagination-bullets {
+  @apply hidden py-5 md:flex md:items-center md:justify-center;
+}
+
+.header-slider .swiper-pagination-bullet {
+  @apply h-2 w-5 cursor-pointer rounded-full bg-white/80 transition-all duration-500;
+}
+
+.header-slider .swiper-pagination-bullet-active {
+  @apply bg-white;
 }
