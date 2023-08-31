@@ -32,3 +32,19 @@ body {
 .header-slider .swiper-pagination-bullet-active {
   @apply bg-white;
 }
+
+.mobile__menu-toggle span {
+  @apply block h-0.5 w-9 rounded-md bg-gradient-to-r from-[#ff7757] to-[#9b2fff] transition-all duration-300;
+}
+
+.mobile__menu-toggle.active span:first-child {
+  transform: rotate(42deg) translateY(9px) translatex(6px);
+}
+
+.mobile__menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile__menu-toggle.active span:last-child {
+  transform: rotate(-42deg) translateY(-8px) translatex(4px);
+}

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-kalpurush">
-        <div className="container">
+        <div className="container overflow-x-hidden">
           <Header />
           <Navbar />
           <main>{children}</main>
