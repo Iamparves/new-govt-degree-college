@@ -1,6 +1,6 @@
 const Page = () => {
   return (
-    <div className="py-5">
+    <div className="">
       <div className="h-screen bg-gray-200 py-20">
         <h1>আমার সোনার বাংলা</h1>
       </div>

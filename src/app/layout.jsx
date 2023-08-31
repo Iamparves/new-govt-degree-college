@@ -1,5 +1,7 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import "@/fonts/fonts.css";
 import "./globals.css";
 
@@ -19,8 +21,12 @@ export default function RootLayout({ children }) {
         <div className="container overflow-x-hidden">
           <Header />
           <Navbar />
-          <main>{children}</main>
+          <div className="mb-12 mt-8 grid grid-cols-[9fr_3fr] gap-8">
+            <main>{children}</main>
+            <Sidebar />
+          </div>
         </div>
+        <Footer />
       </body>
     </html>
   );

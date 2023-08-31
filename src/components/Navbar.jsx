@@ -46,7 +46,7 @@ const Navbar = () => {
         </Link>
         {navLinks.map((navLink, index) => {
           return (
-            <div className="group relative">
+            <div className="group relative md:text-sm lg:text-base">
               <Link
                 href={navLink.path}
                 key={index}
@@ -63,12 +63,12 @@ const Navbar = () => {
                 <div
                   className={`invisible absolute left-0 top-[45px] translate-y-10 opacity-0 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 bg-${navLink.color} z-10 w-52 divide-y divide-gray-200/30 transition-all duration-300`}
                 >
-                  {navLink.childrens.map((subLink) => {
+                  {navLink.childrens.map((subLink, ind) => {
                     return (
                       <div className="group/subLink relative">
                         <Link
                           href={subLink.path}
-                          key={index}
+                          key={ind}
                           className={`flex items-center justify-between gap-1 px-4 py-3 text-white transition-all duration-300 hover:bg-black/60`}
                         >
                           <span>{subLink.title}</span>
@@ -82,11 +82,11 @@ const Navbar = () => {
                           <div
                             className={`invisible absolute left-full top-0 z-10 flex w-52 translate-y-10 flex-col divide-y divide-gray-200/30 bg-black/50 opacity-0 transition-all duration-300 group-hover/subLink:visible group-hover/subLink:translate-y-0 group-hover/subLink:opacity-100`}
                           >
-                            {subLink.childrens.map((subChildrenLink) => {
+                            {subLink.childrens.map((subChildrenLink, i) => {
                               return (
                                 <Link
                                   href={subChildrenLink.path}
-                                  key={index}
+                                  key={i}
                                   className={`px-4 py-3 text-white transition-all duration-300 hover:bg-black/60`}
                                 >
                                   <span>{subChildrenLink.title}</span>

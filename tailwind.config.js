@@ -11,6 +11,8 @@ module.exports = {
         kalpurush: ["Kalpurush", "sans-serif"],
       },
       colors: {
+        primary: "#609513",
+        darkBlue: "#1E364E",
         navOrange: "#FF6600",
         navRed: "#C40A2A",
         navPurple: "#84154D",
