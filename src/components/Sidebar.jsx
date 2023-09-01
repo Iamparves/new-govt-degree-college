@@ -36,6 +36,7 @@ const Sidebar = () => {
         <Link
           className="!mt-4 block text-center text-lg font-bold text-[#E91E63]"
           href="http://shed.portal.gov.bd/sites/default/files/files/shed.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%20%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%A8%E0%A6%BE1.pdf"
+          target="_blank"
         >
           মুজিব বর্ষে কর্মপরিকল্পনা
         </Link>

@@ -1,10 +1,10 @@
+import HomeBanner from "@/components/HomeBanner";
+
 const Page = () => {
   return (
-    <div className="">
-      <div className="h-screen bg-gray-200 py-20">
-        <h1>আমার সোনার বাংলা</h1>
-      </div>
-    </div>
+    <>
+      <HomeBanner />
+    </>
   );
 };
 

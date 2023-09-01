@@ -49,7 +49,7 @@ const Header = () => {
                   src={slide}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 1200px) 960px"
+                  sizes="(min-width: 1000px) 868px, (min-width: 780px) calc(70vw + 202px), (min-width: 580px) 508px, 92.31vw"
                   alt=""
                 />
                 <div className="absolute left-0 top-0 h-full w-full bg-black/30"></div>
@@ -66,6 +66,7 @@ const Header = () => {
               alt="Mountains"
               src="/header-slider/logo.png"
               fill
+              sizes="(min-width: 1000px) 724px, calc(59.5vw + 158px)"
               className="object-contain"
             />
           </div>
