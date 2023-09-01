@@ -1,7 +1,7 @@
 const navLinks = [
   {
     title: "About",
-    path: "/",
+    path: "/about-us",
     color: "navOrange",
     childrens: [
       {
@@ -40,7 +40,7 @@ const navLinks = [
   },
   {
     title: "Information",
-    path: "/",
+    path: "/information",
     color: "navRed",
     childrens: [
       {
@@ -79,7 +79,7 @@ const navLinks = [
   },
   {
     title: "Activities",
-    path: "/",
+    path: "/activities",
     color: "navPurple",
     childrens: [
       {
@@ -128,7 +128,7 @@ const navLinks = [
   },
   {
     title: "Academic",
-    path: "/",
+    path: "/academic",
     color: "navGreen",
     childrens: [
       {
@@ -183,7 +183,7 @@ const navLinks = [
   },
   {
     title: "Notices",
-    path: "/",
+    path: "/notices",
     color: "navDarkRed",
     childrens: [
       {
@@ -206,7 +206,7 @@ const navLinks = [
   },
   {
     title: "Admission",
-    path: "/",
+    path: "/online-admission",
     color: "navPurple",
     childrens: [
       {
@@ -237,7 +237,7 @@ const navLinks = [
   },
   {
     title: "Form Fillup",
-    path: "/",
+    path: "/academic",
     color: "navGreen",
     childrens: [
       {
@@ -260,7 +260,7 @@ const navLinks = [
   },
   {
     title: "Results",
-    path: "/",
+    path: "/results",
     color: "navNavyBlue",
     childrens: [
       {
