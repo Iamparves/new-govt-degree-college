@@ -65,8 +65,8 @@ const Header = () => {
             <Image
               alt="Mountains"
               src="/header-slider/logo.png"
-              layout="fill"
-              objectFit="contain"
+              fill
+              className="object-contain"
             />
           </div>
           <button className="header-slider-next shrink-0 p-2 text-2xl text-white">

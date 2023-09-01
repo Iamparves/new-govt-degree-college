@@ -102,3 +102,54 @@ export const sidebarMenu = [
     link: "#",
   },
 ];
+
+export const usefulLinks = [
+  {
+    name: "National Web Portal",
+    link: "http://www.bangladesh.gov.bd/",
+  },
+  {
+    name: "National University",
+    link: "https://www.nu.ac.bd/",
+  },
+  {
+    name: "Education Board,",
+    link: "https://ngdc.ac.bd/",
+  },
+  {
+    name: "e-Shikhha",
+    link: "https://www.eshikkha.net/",
+  },
+  {
+    name: "Muktopaath",
+    link: "https://www.muktopaath.gov.bd/",
+  },
+  {
+    name: "Shikkhak Batayon",
+    link: "https://www.teachers.gov.bd/",
+  },
+  {
+    name: "eksheba",
+    link: "https://eksheba.gov.bd/",
+  },
+  {
+    name: "EMIS | DSHE",
+    link: "http://emis.gov.bd/",
+  },
+  {
+    name: "Integrated Budget And Accounting System",
+    link: "http://www.payfixation.gov.bd/",
+  },
+  {
+    name: "IBAS++ Version Selector",
+    link: "https://ibas.finance.gov.bd/",
+  },
+  {
+    name: "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর",
+    link: "http://www.dip.gov.bd/",
+  },
+  {
+    name: "বাংলাদেশ ফরম",
+    link: "http://forms.mygov.bd/",
+  },
+];

@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <div className="container overflow-x-hidden">
           <Header />
           <Navbar />
-          <div className="mb-12 mt-8 grid grid-cols-[9fr_3fr] gap-8">
+          <div className="mb-12 mt-8 grid grid-cols-1 gap-8 md:grid-cols-[9fr_3fr]">
             <main>{children}</main>
             <Sidebar />
           </div>

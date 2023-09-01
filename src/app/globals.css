@@ -48,3 +48,48 @@ body {
 .mobile__menu-toggle.active span:last-child {
   transform: rotate(-42deg) translateY(-8px) translatex(4px);
 }
+
+.sidebar__calendar
+  .rs-calendar-body
+  .rs-calendar-table-header-cell
+  .rs-calendar-table-header-cell-content {
+  @apply w-full bg-darkBlue text-sm font-bold text-white;
+}
+
+.sidebar__calendar .rs-calendar-header {
+  @apply px-0;
+}
+
+.sidebar__calendar .rs-calendar-body {
+  @apply p-0;
+}
+
+.sidebar__calendar .rs-calendar-body .rs-calendar-table {
+  @apply border-0;
+}
+
+.sidebar__calendar .rs-calendar-body .rs-calendar-table-cell-content {
+  @apply !h-[30px] p-0;
+}
+
+.sidebar__calendar .rs-calendar-body .rs-calendar-table-cell-day {
+  @apply text-base;
+}
+
+.sidebar__calendar .rs-calendar-body .rs-calendar-table-cell-day {
+  @apply mt-0 flex h-full w-full items-center justify-center rounded-none;
+}
+
+.sidebar__calendar
+  .rs-calendar-body
+  .rs-calendar-table-row
+  .rs-calendar-table-cell {
+  @apply p-0;
+}
+
+.sidebar__calendar
+  .rs-calendar-body
+  .rs-calendar-table-row
+  .rs-calendar-table-cell:not(:first-child) {
+  @apply border-l border-[#f2f2f5];
+}
