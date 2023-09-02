@@ -1,11 +1,9 @@
 "use client";
 
-import { Loader } from "rsuite";
-
 const Loading = () => {
   return (
     <div>
-      <Loader center content="loading" />
+      <p className="p-10 text-center text-lg text-orange-500">Loading...</p>
     </div>
   );
 };
