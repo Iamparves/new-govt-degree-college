@@ -40,7 +40,7 @@ const HomeGallery = () => {
 
   return (
     <section className="mt-7">
-      <h3 className="mb-5 text-3xl font-bold text-dark">Photo Gallery</h3>
+      <h3 className="mb-3 text-3xl font-bold text-dark">Photo Gallery</h3>
       <div className="grid grid-cols-2 gap-1 md:grid-cols-4">
         {photos.map((photo, i) => (
           <div key={i} className="group relative" onClick={() => setIndex(i)}>

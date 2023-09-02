@@ -1,6 +1,6 @@
 "use client";
 
-import { homeNotices } from "@/data/notices";
+import { homeNews } from "@/data/news";
 import Link from "next/link";
 import { BiSolidRightArrow } from "react-icons/bi";
 import "swiper/css";
@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const HomeNews = () => {
   return (
     <section className="my-5 grid grid-cols-1 items-center justify-items-center gap-x-10 gap-y-3 bg-[#E6E7E8] px-4 py-2 md:grid-cols-[auto_1fr_auto]">
-      <h3 className="text-dark text-lg font-bold">News:</h3>
+      <h3 className="text-lg font-bold text-dark">News:</h3>
       <Swiper
         direction="vertical"
         speed={1000}
@@ -22,7 +22,7 @@ const HomeNews = () => {
         modules={[Autoplay]}
         className="h-16 md:h-14"
       >
-        {homeNotices.map((notice) => (
+        {homeNews.map((notice) => (
           <SwiperSlide
             key={notice.id}
             className="!flex flex-col justify-center"
@@ -41,7 +41,7 @@ const HomeNews = () => {
       </Swiper>
       <Link
         href="/news"
-        className="text-dark rounded-md bg-[#ddd] px-3 py-1 font-bold"
+        className="rounded-md bg-[#ddd] px-3 py-1 font-bold text-dark"
       >
         All
       </Link>

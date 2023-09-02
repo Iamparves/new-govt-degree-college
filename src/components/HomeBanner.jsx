@@ -14,7 +14,7 @@ const HomeBanner = () => {
           sizes="(min-width: 1000px) 627px, (min-width: 780px) calc(52.5vw + 128px), (min-width: 580px) 508px, 92.31vw"
         />
       </Link>
-      <Marquee pauseOnHover={true} className="my-2.5 bg-[#E6E7E8] py-1.5">
+      <Marquee pauseOnHover={true} className="mt-4 bg-[#E6E7E8] py-1.5">
         <p className="text-xl font-bold text-[#212529] md:text-2xl">
           করোনাভাইরাসের বিস্তার রোধে এখনই ডাউনলোড করুন Corona Tracer BD অ্যাপ।
           ডাউনলোড করতে ক্লিক করুন{" "}
