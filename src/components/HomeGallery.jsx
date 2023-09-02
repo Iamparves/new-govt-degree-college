@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
+import { MdOutlineZoomOutMap } from "react-icons/md";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import Image from "next/image";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -42,15 +43,17 @@ const HomeGallery = () => {
       <h3 className="mb-5 text-3xl font-bold text-dark">Photo Gallery</h3>
       <div className="grid grid-cols-2 gap-1 md:grid-cols-4">
         {photos.map((photo, i) => (
-          <div key={i} className="">
+          <div key={i} className="group relative" onClick={() => setIndex(i)}>
             <Image
               src={photo.src}
               width={photo.width}
               height={photo.height}
               className="h-full max-w-full cursor-pointer object-cover"
               alt=""
-              onClick={() => setIndex(i)}
             />
+            <div className="absolute left-0 top-0 flex h-full w-full cursor-pointer items-center justify-center bg-black/50 text-2xl text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <MdOutlineZoomOutMap />
+            </div>
           </div>
         ))}
       </div>
