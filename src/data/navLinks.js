@@ -6,11 +6,11 @@ const navLinks = [
     childrens: [
       {
         title: "At a Glance",
-        path: "#",
+        path: "/about-us/at-a-glance",
       },
       {
         title: "Aims & Goals",
-        path: "#",
+        path: "/about-us/aims-goals",
       },
       {
         title: "Logo Identity",
@@ -18,7 +18,7 @@ const navLinks = [
       },
       {
         title: "Rooms & Dept. Location",
-        path: "#",
+        path: "/about-us/room-department-location",
       },
       {
         title: "Rules & Regulations",
@@ -26,15 +26,15 @@ const navLinks = [
       },
       {
         title: "Seat Capacity",
-        path: "#",
+        path: "/about-us/seat-capacity",
       },
       {
         title: "Hostel Info",
-        path: "#",
+        path: "/about-us/hostel-info",
       },
       {
         title: "House Info",
-        path: "#",
+        path: "/about-us/house-info",
       },
     ],
   },
