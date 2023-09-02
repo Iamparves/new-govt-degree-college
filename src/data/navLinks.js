@@ -14,7 +14,7 @@ const navLinks = [
       },
       {
         title: "Logo Identity",
-        path: "#",
+        path: "/about-us/logo-identity",
       },
       {
         title: "Rooms & Dept. Location",
@@ -22,7 +22,7 @@ const navLinks = [
       },
       {
         title: "Rules & Regulations",
-        path: "#",
+        path: "/about-us/class-rules",
       },
       {
         title: "Seat Capacity",
