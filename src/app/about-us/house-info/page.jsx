@@ -140,7 +140,13 @@ const Page = () => {
         ইতিহাস-ঐতিহ্য ভূ-প্রকৃতি সম্পর্কে একটি প্রাথমিক ধারণা পেতে পারে।
       </p>
       <div className="">
-        <Table bordered cellBordered autoHeight data={data}>
+        <Table
+          className="rsuiteTable"
+          bordered
+          cellBordered
+          autoHeight
+          data={data}
+        >
           <Column
             verticalAlign="middle"
             flexGrow={1}
