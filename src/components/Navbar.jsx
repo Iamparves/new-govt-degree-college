@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { IoHome } from "react-icons/io5";
-import NavListLink from "./NavLink";
+import NavListLink from "./NavListLink";
 
 const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);

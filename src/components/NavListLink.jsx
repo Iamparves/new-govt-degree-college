@@ -16,7 +16,7 @@ const NavListLink = ({ navLink }) => {
     <div className="group relative md:text-sm lg:text-base" key={navLink.title}>
       <Link
         href={navLink.path}
-        className={`flex items-center justify-between gap-1 px-[7px] py-1.5 transition-all duration-300 hover:text-white md:justify-start md:py-2.5 text-${
+        className={`flex items-center justify-between gap-1 px-[7px] py-1.5 last:py-2.5 transition-all duration-300 hover:text-white md:justify-start md:py-2.5 text-${
           navLink.color
         } hover:bg-${navLink.color} ${
           isActive ? "bg-" + navLink.color + " text-white" : ""

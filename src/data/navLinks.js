@@ -45,35 +45,35 @@ const navLinks = [
     childrens: [
       {
         title: "Administration",
-        path: "#",
+        path: "/information/administration",
       },
       {
         title: "List of Principal",
-        path: "#",
+        path: "/information/list-of-principal",
       },
       {
         title: "List of Principal (Acting)",
-        path: "#",
+        path: "/information/list-of-principal-acting",
       },
       {
         title: "List of Vice-Principal",
-        path: "#",
+        path: "/information/list-of-vice-principal",
       },
       {
         title: "Staff Info",
-        path: "#",
+        path: "/information/staff-info",
       },
       {
         title: "Famous",
-        path: "#",
+        path: "/information/famous",
       },
       {
         title: "Ex Students",
-        path: "#",
+        path: "/information/ex-students",
       },
       {
         title: "Ex Teachers",
-        path: "#",
+        path: "/information/ex-teachers",
       },
     ],
   },
