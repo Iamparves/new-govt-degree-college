@@ -30,6 +30,7 @@ const Navbar = () => {
             fill
             sizes="(max-width: 768px) 300px"
             className="object-contain"
+            alt=""
           />
         </Link>
       </div>

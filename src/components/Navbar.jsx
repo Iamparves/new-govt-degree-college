@@ -3,13 +3,20 @@
 import navLinks from "@/data/navLinks";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { IoHome } from "react-icons/io5";
 import NavListLink from "./NavListLink";
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [isMenuActive, setIsMenuActive] = useState(false);
+
   const toggleMenu = () => setIsMenuActive(!isMenuActive);
+
+  useEffect(() => {
+    setIsMenuActive(false);
+  }, [pathname]);
 
   return (
     <div>
@@ -30,6 +37,7 @@ const Navbar = () => {
             fill
             sizes="(max-width: 768px) 300px"
             className="object-contain"
+            alt=""
           />
         </Link>
       </div>
