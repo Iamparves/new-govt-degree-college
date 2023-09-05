@@ -8,24 +8,23 @@ const Page = () => {
 
         <table className="border border-collapse border-[#ddd] text-sm md:text-base text-left mt-10 w-full">
             <thead>
-                    <tr>
-                        <th className="font-bold border border-[#ddd] p-2">নাম ও পদবী (কলেজ)</th>
-                        <th className="font-bold border border-[#ddd] p-2">দায়িত্ব</th>
-                        <th className="font-bold border border-[#ddd] p-2">মোবাইল নম্বর</th>
-                    </tr>
+                <tr>
+                    <th className="font-bold border border-[#ddd] p-2">নাম ও পদবী (কলেজ)</th>
+                    <th className="font-bold border border-[#ddd] p-2">দায়িত্ব</th>
+                    <th className="font-bold border border-[#ddd] p-2">মোবাইল নম্বর</th>
+                </tr>
             </thead>
             <tbody>
-                    <tr className="bg-gray-100">
-                        <td className="border border-[#ddd] p-2">ক্যাপ্টেন ড. মোঃ মফিজুদ্দিন মোল্লা (বিটিএফও), সহযোগী অধ্যাপক ও বিভাগীয় প্রধান, উদ্ভিদবিজ্ঞান বিভাগ</td>
-                        <td className="border border-[#ddd] p-2">ব্যাটালিয়ন উপঅধিনায়ক</td>
-                        <td className="border border-[#ddd] p-2">০১৫৫৬-৩১০১৫০</td>
-                    </tr>
-                    <tr className="hover:bg-gray-100 transition-all duration-300">
-                        <td className="border border-[#ddd] p-2">পিইউও ইমামুল মোত্তাকিন, প্রভাষক, ব্যবস্থাপনা বিভাগ</td>
-                        <td className="border border-[#ddd] p-2">প্লাটুন কমান্ডার</td>
-                        <td className="border border-[#ddd] p-2">০১৭১১-৫০৭৫৫৯, ০১৯১৯-৫০৭৫৫৯</td>
-                    </tr>
-                    
+                <tr className="bg-gray-100">
+                    <td className="border border-[#ddd] p-2">ক্যাপ্টেন ড. মোঃ মফিজুদ্দিন মোল্লা (বিটিএফও), সহযোগী অধ্যাপক ও বিভাগীয় প্রধান, উদ্ভিদবিজ্ঞান বিভাগ</td>
+                    <td className="border border-[#ddd] p-2">ব্যাটালিয়ন উপঅধিনায়ক</td>
+                    <td className="border border-[#ddd] p-2">০১৫৫৬-৩১০১৫০</td>
+                </tr>
+                <tr className="hover:bg-gray-100 transition-all duration-300">
+                    <td className="border border-[#ddd] p-2">পিইউও ইমামুল মোত্তাকিন, প্রভাষক, ব্যবস্থাপনা বিভাগ</td>
+                    <td className="border border-[#ddd] p-2">প্লাটুন কমান্ডার</td>
+                    <td className="border border-[#ddd] p-2">০১৭১১-৫০৭৫৫৯, ০১৯১৯-৫০৭৫৫৯</td>
+                </tr>
                 </tbody>
             </table>
       </section>
