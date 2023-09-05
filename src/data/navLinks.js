@@ -84,45 +84,45 @@ const navLinks = [
     childrens: [
       {
         title: "HSC",
-        path: "#",
+        path: "/activities/hsc",
       },
       {
         title: "Honours",
-        path: "#",
+        path: "/activities/honours",
       },
       {
         title: "Pass Course",
-        path: "#",
+        path: "/activities/pass-course",
       },
       {
         title: "Co-Curriculum",
-        path: "#",
+        path: "/activities/co-curriculum",
         childrens: [
           {
             title: "Sports",
-            path: "#",
+            path: "/activities/co-curriculum/sports",
           },
           {
             title: "Cultural Activities",
-            path: "#",
+            path: "/activities/co-curriculum/cultural-activities",
           },
           {
             title: "Debating Club",
-            path: "#",
+            path: "/activities/co-curriculum/debating-club",
           },
           {
             title: "Magazine",
-            path: "#",
+            path: "/activities/co-curriculum/magazine",
           },
         ],
       },
       {
         title: "BNCC",
-        path: "#",
+        path: "/activities/bncc",
       },
       {
         title: "Rover Scout",
-        path: "#",
+        path: "/activities/rover-scout",
       },
     ],
   },
