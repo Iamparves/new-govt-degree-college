@@ -94,6 +94,12 @@ export default function page() {
               />
             </tr>
           ))}
+          <tr className="transition-all duration-300 odd:bg-gray-100 hover:bg-gray-100">
+            <td colSpan={4} className="border border-[#ddd] p-2">
+              বি:দ্র:- শীতকালে প্রয়োজনে সকল শ্রেণির শিক্ষার্থীরা ‘V’ গলাবিশিষ্ট
+              খয়েরী রঙের সোয়েটার পরিধান করবে।
+            </td>
+          </tr>
         </tbody>
       </table>
 
