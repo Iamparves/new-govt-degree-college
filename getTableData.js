@@ -1,16 +1,18 @@
-const tableRows = [...document.querySelector("table:nth-child(2)").querySelectorAll("tr")].slice(1)
+const tableRows = [
+  ...document.querySelector("#post-307 > div > table").querySelectorAll("tr"),
+].slice(1, -1);
 
-const data = tableRows.map(tr => {
-    const cols = [...tr.querySelectorAll("td")].map(td => td.textContent);
+const data = tableRows.map((tr) => {
+  const cols = [...tr.querySelectorAll("td")].map((td) => td.textContent);
 
-    const row = {
-        serialNo: cols[0],
-        name: cols[1],
-        mobileNo: cols[2],
-        division: cols[3]
-    }
+  const row = {
+    serialNo: cols[0],
+    name: cols[1],
+    date: cols[2],
+    day: cols[3],
+  };
 
-    return row;
+  return row;
 });
 
 console.log(data);
