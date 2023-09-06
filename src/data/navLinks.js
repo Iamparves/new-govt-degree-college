@@ -133,51 +133,51 @@ const navLinks = [
     childrens: [
       {
         title: "Departments",
-        path: "#",
+        path: "/academic/departments",
       },
       {
         title: "Creative Learning",
-        path: "#",
+        path: "/academic/create-learning",
       },
       {
         title: "Exam Schedule",
-        path: "#",
+        path: "/academic/exam-schedule",
       },
       {
         title: "Academic Calendar",
-        path: "#",
+        path: "/academic/academic-calendar",
       },
       {
-        title: "Vacademic Calendar",
-        path: "#",
+        title: "Vacation Calendar",
+        path: "/academic/vacation-calendar",
       },
       {
         title: "Students Must Follow",
-        path: "#",
+        path: "/academic/students-must-follow",
       },
       {
         title: "Principal's House",
-        path: "#",
+        path: "/academic/principals-house",
       },
       {
         title: "College Time",
-        path: "#",
+        path: "/academic/college-time",
       },
       {
         title: "College Uniform",
-        path: "#",
+        path: "/academic/college-uniform",
       },
       {
         title: "Library",
-        path: "#",
+        path: "/academic/library",
       },
       {
         title: "Laboratory",
-        path: "#",
+        path: "/academic/laboratory",
       },
       {
         title: "Physical Exercise",
-        path: "#",
+        path: "/academic/physical-exercise",
       },
     ],
   },
