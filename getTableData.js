@@ -1,15 +1,14 @@
 const tableRows = [
-  ...document.querySelector("#post-307 > div > table").querySelectorAll("tr"),
+  ...document.querySelector("table").querySelectorAll("tr"),
 ].slice(1, -1);
 
 const data = tableRows.map((tr) => {
-  const cols = [...tr.querySelectorAll("td")].map((td) => td.textContent);
+  const cols = [...tr.querySelectorAll("td")].map((td) => td.innerHTML);
 
   const row = {
-    serialNo: cols[0],
-    name: cols[1],
-    date: cols[2],
-    day: cols[3],
+    class: cols[0],
+    student: cols[1],
+    dressCode: cols[2],
   };
 
   return row;
