@@ -137,7 +137,7 @@ const navLinks = [
       },
       {
         title: "Creative Learning",
-        path: "/academic/create-learning",
+        path: "/academic/creative-learning",
       },
       {
         title: "Exam Schedule",
