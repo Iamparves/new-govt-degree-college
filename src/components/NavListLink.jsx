@@ -65,7 +65,7 @@ const NavListLink = ({ navLink }) => {
                   >
                     <span>{subLink.title}</span>
                     {subLink.childrens && (
-                      <span>
+                      <span className="hidden md:block">
                         <HiChevronDown />
                       </span>
                     )}
