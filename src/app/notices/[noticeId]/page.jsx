@@ -12,7 +12,7 @@ const page = ({ params: { noticeId } }) => {
         <h2 className="text-xl font-bold md:text-2xl">{title}</h2>
         <p className="text-gray-500">{date}</p>
       </div>
-      {summary && <p className="mb-5">{summary}</p>}
+      {summary && <p className="mb-5 md:text-lg">{summary}</p>}
       <div className="mb-10">
         <h4 className="mb-3 text-xl font-bold">Click to Download File:</h4>
         <Link
