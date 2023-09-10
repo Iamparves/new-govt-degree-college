@@ -211,50 +211,50 @@ const navLinks = [
     childrens: [
       {
         title: "Honours Admission",
-        path: "#",
+        path: "https://easycollegemate.com/ecmngdc/Admission/Honours",
       },
       {
         title: "HSC Admission",
-        path: "#",
+        path: "https://easycollegemate.com/ecmngdc/public/Admission/HSC",
       },
       {
         title: "HSC 2nd Year Admission",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/HSC/2nd/Admission",
       },
       {
         title: "Degree Application",
-        path: "#",
+        path: "https://easycollegemate.com/ecmngdc/Application/Degree",
       },
       {
         title: "Degree Admission",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/Admission/Degree",
       },
       {
         title: "Masters Final Admission",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/Admission/Masters",
       },
     ],
   },
   {
     title: "Form Fillup",
-    path: "/academic",
+    path: "#",
     color: "navGreen",
     childrens: [
       {
         title: "HSC Form Fillup",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/HSC/formfillup",
       },
       {
         title: "Degree Form Fillup",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/Degree/formfillup",
       },
       {
         title: "Honours Form Fillup",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/Honours/formfillup",
       },
       {
         title: "Masters Form Fillup",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/Masters/formfillup",
       },
     ],
   },
@@ -265,7 +265,7 @@ const navLinks = [
     childrens: [
       {
         title: "HSC Result",
-        path: "#",
+        path: "http://139.162.8.132/ecmngdc/result",
       },
     ],
   },

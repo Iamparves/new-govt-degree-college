@@ -32,8 +32,12 @@ const page = () => {
                     <Link href={`/notices/${notice.id}`}>{notice.title}</Link>
                   </td>
                   <td className="border border-[#ddd] p-2.5">{notice.date}</td>
-                  <td className="flex justify-center border border-[#ddd] p-2.5 text-xl md:text-2xl">
-                    <Link href={notice.pdfLink} target="_blank">
+                  <td className="border border-[#ddd] p-2.5 text-xl md:text-2xl">
+                    <Link
+                      href={notice.pdfLink}
+                      target="_blank"
+                      className="mx-auto block w-min"
+                    >
                       <FaDownload />
                     </Link>
                   </td>
