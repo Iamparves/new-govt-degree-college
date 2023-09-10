@@ -1,9 +1,9 @@
-import { noticeList } from "@/data/noticeList";
+import { officialOrderList } from "@/data/noticeList";
 import Link from "next/link";
 import { FaDownload } from "react-icons/fa6";
 
-const page = ({ params: { noticeId } }) => {
-  const notice = noticeList.find((n) => n.id == noticeId);
+const page = ({ params: { officialOrderId } }) => {
+  const notice = officialOrderList.find((n) => n.id == officialOrderId);
   const { title, date, summary, pdfLink } = notice;
 
   return (

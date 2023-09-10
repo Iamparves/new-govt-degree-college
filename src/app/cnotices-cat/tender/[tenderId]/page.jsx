@@ -1,9 +1,9 @@
-import { noticeList } from "@/data/noticeList";
+import { tenderList } from "@/data/noticeList";
 import Link from "next/link";
 import { FaDownload } from "react-icons/fa6";
 
-const page = ({ params: { noticeId } }) => {
-  const notice = noticeList.find((n) => n.id == noticeId);
+const page = ({ params: { tenderId } }) => {
+  const notice = tenderList.find((n) => n.id == tenderId);
   const { title, date, summary, pdfLink } = notice;
 
   return (
@@ -17,7 +17,7 @@ const page = ({ params: { noticeId } }) => {
         <h4 className="mb-3 text-xl font-bold">Click to Download File:</h4>
         <Link
           className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-white"
-          href={pdfLink}
+          href={notice.pdfLink}
           target="_blank"
         >
           <span className="text-lg">

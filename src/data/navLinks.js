@@ -188,19 +188,19 @@ const navLinks = [
     childrens: [
       {
         title: "Official Order",
-        path: "#",
+        path: "/cnotices-cat/official-order",
       },
       {
         title: "General Notice",
-        path: "#",
+        path: "/cnotices-cat/general-notice",
       },
       {
         title: "NOC",
-        path: "#",
+        path: "/cnotices-cat/noc",
       },
       {
         title: "Tender",
-        path: "#",
+        path: "/cnotices-cat/tender",
       },
     ],
   },
