@@ -17,8 +17,8 @@ const page = () => {
         কর্ণার’ ও শিক্ষকদের পড়াশোনা করার পৃথক স্থান রয়েছে। এছাড়াও ১৫টি বিভাগে
         বিভাগীয় সেমিনার লাইব্রেরি রয়েছে।
       </p>
-      <div className="overflow-y-auto overflow-x-hidden">
-        <table className="w-full border-collapse border border-[#ddd] text-left text-sm text-dark md:text-base">
+      <div className="overflow-x-auto overflow-y-hidden">
+        <table className="border-collapse border border-[#ddd] text-left text-sm text-dark md:text-base">
           <thead>
             <tr>
               <td className="border border-[#ddd] p-2 font-bold">ছবি</td>
@@ -31,15 +31,18 @@ const page = () => {
           </thead>
           <tbody>
             <tr className="transition-all duration-300 odd:bg-[#f2f2f2] hover:bg-[#f2f2f2]">
-              <td className="border border-[#ddd] p-2">
+              <td className="min-w-[60px] border border-[#ddd] p-2 md:min-w-[80px]">
                 <Image
                   src="/avatar.jpg"
                   width={100}
                   height={120}
-                  className="w-28 rounded-md object-cover"
+                  alt=""
+                  className="w-20 shrink-0 rounded-md object-cover"
                 />
               </td>
-              <td className="border border-[#ddd] p-2">মো: মুখলেসুর রহমান</td>
+              <td className="min-w-[100px] border border-[#ddd] p-2">
+                মো: মুখলেসুর রহমান
+              </td>
               <td className="border border-[#ddd] p-2">-</td>
               <td className="border border-[#ddd] p-2">লাইব্রেরিয়ান</td>
               <td className="border border-[#ddd] p-2">০১৯১৫৮৫৭৮৭৪</td>
@@ -48,15 +51,18 @@ const page = () => {
               </td>
             </tr>
             <tr className="transition-all duration-300 odd:bg-[#f2f2f2] hover:bg-[#f2f2f2]">
-              <td className="border border-[#ddd] p-2">
+              <td className="min-w-[60px] border border-[#ddd] p-2 md:min-w-[80px]">
                 <Image
                   src="/avatar.jpg"
                   width={100}
                   height={120}
-                  className="w-28 rounded-md object-cover"
+                  alt=""
+                  className="w-20 shrink-0 rounded-md object-cover"
                 />
               </td>
-              <td className="border border-[#ddd] p-2">মো: ওয়াহেদুল ইসলাম</td>
+              <td className="min-w-[100px] border border-[#ddd] p-2">
+                মো: ওয়াহেদুল ইসলাম
+              </td>
               <td className="border border-[#ddd] p-2">-</td>
               <td className="border border-[#ddd] p-2">সহকারী লাইব্রেরিয়ান</td>
               <td className="border border-[#ddd] p-2">০১৭১৪-৫৬৮৩২৬</td>
